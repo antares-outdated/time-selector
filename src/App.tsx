@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import { ArrowWrap, Inner, MiddleChar, SelectedTime, TimeItem, TimeItemInner, TimeItemSide, Wrap } from "./styles";
 
-export const App = () => {
+export const TimeSelector = () => {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
 
